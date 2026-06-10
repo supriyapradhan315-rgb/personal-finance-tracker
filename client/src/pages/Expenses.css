@@ -1,0 +1,52 @@
+.expense-page {
+  padding: 30px;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+.expense-page h1 {
+  margin-bottom: 20px;
+}
+
+.expense-form {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.expense-form input,
+.expense-form select {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.expense-form button {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.expense-table {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.expense-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.expense-table th,
+.expense-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}

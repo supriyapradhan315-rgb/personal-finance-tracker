@@ -1,0 +1,47 @@
+.settings-page {
+  padding: 30px;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+.settings-page h1 {
+  margin-bottom: 20px;
+}
+
+.settings-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.settings-card h2 {
+  margin-bottom: 15px;
+}
+
+.settings-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.save-btn {
+  padding: 12px 20px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.logout-btn {
+  padding: 12px 20px;
+  border: none;
+  background: #ef4444;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
